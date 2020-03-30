@@ -5,7 +5,7 @@ node {
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'tjilal/centos-web'
-    def registryCredential = 'dockerhub'
+    def registryCredential = 'docker-hub'
 	
 	stage('Git') {
 		git 'https://github.com/talhajilal/node-js.git'
