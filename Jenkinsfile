@@ -1,3 +1,3 @@
 node {
-    def docker-build = load "${rootDir}/first-pipeline.groovy"
+    def dockerbuild = load "${rootDir}/first-pipeline.groovy"
 }
